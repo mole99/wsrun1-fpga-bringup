@@ -1,7 +1,7 @@
 delayScale=3.0
 delayOffset=3.0
 delayEpsilon=0.01
-ripupPenalty=0.2
+ripupPenalty=0.5
 carryPredictDelay=0.5
 pipDelayScale=1
 BelBegin,FABULOUS_LC
