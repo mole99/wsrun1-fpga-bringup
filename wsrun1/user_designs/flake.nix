@@ -40,16 +40,16 @@
           ))
           (final: prev: {
             nextpnr = prev.nextpnr.overrideAttrs {
-              version = "ca74f47c";
+              version = "3e53a0bf";
               src = prev.fetchFromGitHub {
                 owner = "YosysHQ";
                 repo = "nextpnr";
-                rev = "ca74f47c3f0f0d3f22b7a7e9920dafa589cc2f3e";
-                hash = "sha256-ybZiFL/c4W6OtXnAQhRbNtOQAHUJ+u3xcZYBmYYeWjA=";
+                rev = "3e53a0bf44d13c0de603dd089a323ea85d67d4ef";
+                hash = "sha256-zxdd0D2/YamP9djRsb613ktPofxbBUNS0jK0iZdtPhU=";
                 fetchSubmodules = true;
               };
               cmakeFlags = [
-                "-DCURRENT_GIT_VERSION=nextpnr-0e66c0ce"
+                "-DCURRENT_GIT_VERSION=nextpnr-3e53a0bf"
                 "-DARCH=generic"
                 "-DBUILD_TESTS=ON"
                 "-DUSE_OPENMP=ON"
